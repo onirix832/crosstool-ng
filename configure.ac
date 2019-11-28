@@ -157,11 +157,11 @@ CTNG_CPU_COUNT
 CTNG_PATH_TOOL_REQ([PATCH], [gpatch patch], [patch])
 
 # We need a bash that is >= 3.1
-CTNG_PROG_VERSION_REQ_STRICT([BASH_SHELL],
-    [GNU bash >= 3.1],
-    [bash],
-    [bash],
-    [^GNU bash, version (3\.[1-9]|4|5)])
+#CTNG_PROG_VERSION_REQ_STRICT([BASH_SHELL],
+ #   [GNU bash >= 3.1],
+#     [bash],
+#     [bash],
+#     [^GNU bash, version (3\.[1-9]|4|5)])
 
 # We need a awk that *is* GNU awk
 CTNG_PROG_VERSION_REQ_STRICT([AWK],
